@@ -1,0 +1,37 @@
+{
+    "name": "lowg33kdev/cakephp-intervention-image",
+    "description": "CakePHP Intervention Image Plugin",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "intervention", "images"],
+    "homepage": "https://github.com/LowG33kDev/cakephp-intervention-image",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Loïc Marchand",
+            "homepage": "https://LowG33kDev.github.io/cakephp-intervention-image/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/LowG33kDev/cakephp-intervention-image/issues",
+        "source": "https://github.com/LowG33kDev/cakephp-intervention-image"
+    },
+    "require": {
+        "php": ">=5.4",
+        "cakephp/cakephp": "~3.1",
+        "intervention/image": "^2.3"
+    },
+    "require-dev": {
+        "cakephp/cakephp-codesniffer": "2.*",
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "InterventionImage\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+
+        }
+    }
+}
